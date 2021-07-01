@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.main-nav{
+    width: 100%;
+}
+.navdx,.navsx{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding: 20px;
+}
+.navdx ul li, .navdx ul, .navsx img, .navsx ul, .navsx ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.navdx{
+    text-align: right;
+}
+.navsx img, .navsx ul li, .navdx ul li, .navdx a{
+    padding-right: 25px; ;
+}
+.bottone{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0061ff;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.hero{
+    background-color: #b4d0e7;
+    height: 740px;
+    width: 100%;
+}
+.center-container{
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+}
+.center-container h1{
+    font-size: 82px;
+}
+.hero-text, .hero-img{
+    display: inline-block;
+    float: left;
+    margin-top: 50px;
+}
+.hero-img{
+    width: 65%;
+}
+.hero-img img{
+    height: 500px;px;
+}
+.hero-text{
+   width: 35%;
+   padding-right: 80px;
+}
+.hero-text a{
+    margin-top: 30px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.hero-text p,.hero-text .sottotitolo{
+    font-weight: bold;
+    font-size: 20px;
+}
+.freccia{
+    margin-top: 40px;
+    font-size: 40px;
+}
