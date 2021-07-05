@@ -177,3 +177,34 @@ main div h2{
     border: 1px solid #d0d0d3;
     min-height: 150px;
 }
+.img-big{
+    width: 60%;
+}
+.img-big img{
+    height: 450px;
+}
+.text-sezione4{
+    width: 40%;
+}
+.img-big,.text-sezione4{
+    float: left;
+}
+.bottone-bianco{
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 5px 20px;
+    font-size: 14px;
+    border: 1px solid black;
+}
+.text-sezione4 div{
+    padding: 30px 0;
+    font-size: 14px;
+}
+.text-sezione4{
+    position: relative;
+}
+.text-sezione4 h3, .text-sezione4 div, .text-sezione4 a{
+    position: relative;
+    top: 30px;
+}
