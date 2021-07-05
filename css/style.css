@@ -84,6 +84,7 @@ main div h2{
     width: 60%;
     margin: auto;
     padding-top: 60px;
+    
 }
 .input-main{
     margin-top: 30px;
@@ -91,17 +92,66 @@ main div h2{
     position: relative;
 }
 .col-sx,.col-cen,.col-dx{
-    width: 33,33%; 
+    width: calc(33% - 5%); 
+    min-height: 1000px;
+    float: left;
+    border: 1px solid #d0d0d3;
+    margin-left: 5%;
 
 }
 .header-table{
-    border: 1px solid grey;
+    border-bottom: 1px solid #d0d0d3;
+    text-align: center;
+    padding: 5px;
 }
 .corpo-colonna ul{
     list-style: none;
-    padding-left: 10px;
+    margin-top: 50px;
 }
 .corpo-colonna h3{
     margin: 20px 0 10px 0;
 }
+.corpo-colonna{
+    width: 90%;
+    margin: auto;
+}
+.costo-mensile{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.mensile{
+    color: grey;
+    font-size: 13px;
+}
+.corpo-colonna ul li{
+    margin-bottom: 20px;
+}
+.corpo-colonna .bottone{
+    margin-top: 50px;
+}
+.acquista-ora{
+    line-height: 80px;
+    vertical-align: middle;
+    font-size: 14px;
+    
+
+}
+.oppure{
+    border-bottom: 1px solid #d0d0d3;
+}
+.acquista-ora .acquista{
+    color: #0061ff;
+    border: none;
+
+}
+.oppure,.acquista{
+    display: inline-block;
+}
+.corpo-colonna h4{
+    padding-top: 30px;
+}
+.lista2 li i {
+    color: #0061ff;
+}
+
 
