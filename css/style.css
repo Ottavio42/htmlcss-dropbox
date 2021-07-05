@@ -211,13 +211,8 @@ main div h2{
 .titolo-sezione5{
     padding-top: 0;
 }
-.row{
-    width: calc(33% - 5%);
-    margin-right: 5% ;
-}
 .img-sezione5{
     height: 200px; 
-    background-image: url(../img/business-feature-switching-tools.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -228,4 +223,28 @@ main div h2{
 }
 .row{
     margin-bottom: 40px;
+}
+.colonna-sezione5{
+    width: calc(33% - 5%);
+    margin-right: 5% ;
+    float: left;
+    display: inline-block;
+}
+#img1{
+    background-image: url(../img/business-feature-switching-tools.png);
+}
+#img2{
+    background-image: url(../img/business-feature-coordinate-it.png);
+}
+#img3{
+    background-image: url(../img/business-feature-multi-device.png);
+}
+#img4{
+    background-image: url(../img/business-feature-integrations-it.png);
+}
+#img5{
+    background-image: url(../img/business-feature-send-files-it.png);
+}
+#img6{
+    background-image: url(../img/business-feature-security.png);
 }
