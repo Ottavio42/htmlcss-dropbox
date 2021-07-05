@@ -96,7 +96,7 @@ main div h2{
     min-height: 1000px;
     float: left;
     border: 1px solid #d0d0d3;
-    margin-left: 5%;
+    margin-right: 5%;
 
 }
 .header-table{
@@ -153,5 +153,27 @@ main div h2{
 .lista2 li i {
     color: #0061ff;
 }
-
-
+.text-sezione3{
+    font-size: 13px;
+}
+.col-sx-sez3{
+    width: 70%;
+}
+.col-dx-sez3{
+    width: 30%;
+   position: relative;
+}
+.col-sx-sez3,.col-dx-sez3{
+    float: left;
+}
+.box-bottone{
+    position: relative;
+    top: 20px;
+}
+.header-table-bordo{
+    border: 1px solid #d0d0d3;
+}
+.container-sezione3{
+    border: 1px solid #d0d0d3;
+    min-height: 150px;
+}
