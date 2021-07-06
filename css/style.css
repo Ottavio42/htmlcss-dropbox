@@ -363,4 +363,28 @@ main div h2{
     position: relative;
     top: 60px;
 }
+.corpo-sezione8{
+    padding: 60px 0;
+}
+.corpo-sezione8 h3{
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+.corpo-sezione8 ul li{
+    line-height: 80px;
+    vertical-align: middle;
+    border-top: 1px solid #d0d0d3;
+
+}
+.corpo-sezione8 ul li:last-child{
+    border-bottom: 1px solid #d0d0d3;;
+}
+.corpo-sezione8 ul{
+    list-style: none;
+}
+.freccia-lista{
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
 
