@@ -387,4 +387,23 @@ main div h2{
     text-align: right;
     float: right;
 }
+footer{
+    background-color: #000000;
+    color: #ffffff;
+}
+.col-footer{
+    width: calc(20% - 5%);
+    margin-right: 5%;
+    float: left;
+}
+.col-footer ul{
+    list-style: none;
+}
+.piè-di-pagina{
+    line-height: 100px;
+    vertical-align: middle;
+    border-top: 1px solid #ffffff;
+    display: inline-block;
+}
+
 
